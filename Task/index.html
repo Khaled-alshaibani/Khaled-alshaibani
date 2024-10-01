@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مهامي</title>
+</head>
+
+    <!--external libraries-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<body>
+
+    
+
+    <style>
+
+        body{
+            padding: 0%;
+            margin:0;
+            font-family: "Tajawal", sans-serif;
+            font-weight: 200;
+            font-style: normal;
+        }
+
+        .container{
+            background-color: blueviolet;
+            width: 100%;
+            height: 100vh;
+            position: fixed;
+        }
+
+        .container-board{
+            display: grid;
+            margin: 50px auto;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(224 233 233);
+            width: 50%;
+            border-radius: 5px;
+            min-height: 80px;
+        }
+
+        .header{
+            width: 100%;
+            max-height: 50px;
+            background-color: rgb(123, 21, 109);
+            text-align: center;
+            color: white;
+            position: relative;
+            top: -13%;
+            
+        }
+
+        button{
+            width: 40px; 
+            height: 40px;
+            border-radius: 50%;
+            font-size: 25px;
+            padding: 0%;
+            
+        }
+
+        .task:hover{
+            box-shadow: 0px 5px 15px rgb(64, 64, 64);
+            transition: box-shadow 0.3s;
+        }
+
+        .task{
+            min-width: 98%;
+            max-width:100%;
+            height:90px;
+            direction: rtl;
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            margin: 5px auto;  
+            transition: background-color 1s ease;          
+        }
+
+        .done{
+            background-color: rgb(93, 230, 93);
+        }
+
+        #Button{
+            max-width: 29%;
+            max-height: 30vh;
+            border: solid;
+            border-color: black;
+            background-color: white;
+            position: fixed;
+            top: 50%;
+            left: 35%;
+        }
+
+        input{
+            width: 70%;
+            height: 50px;
+            border-radius: 5px;
+            margin: 50px 0 0 60px;
+        }
+        
+    </style>
+    
+    <div class="container">
+
+        <div class="container-board" >
+
+            <div class="header">
+                <h1 style="display: inline;">مهامي</h1>
+                <button style=" background-color: white; margin-right:5px; float: right; margin-top: 8px;">
+                    <span class="material-symbols-outlined" id="add">
+                        add
+                    </span>
+                </button>
+            </div>
+
+            <div id="tasks">   
+                
+                <div class="task" >
+                    <div>
+                        <h1 style="margin: 0  10px 0 0 ">دراسة الجافاسكريبت</h1>
+                        <h5 style="margin-right: 10px; margin-top: 0px;">12/3/4567</h5>
+                    </div>
+                    <div style="margin-top: 20px; padding-right: 1px;">
+                        <button style="background-color: red; margin-left: 20px; ">
+                        <span class="material-symbols-outlined">
+                            delete
+                        </span></button>
+                        <button style="background-color: aqua;  margin-left: 20px; padding: right 1px; width:40px; height:40px ;">
+                            <span class="material-symbols-outlined">
+                                edit
+                            </span>
+                        </button>
+                        <button style="background-color: lightgreen;  margin-left: 20px">
+                            <span class="material-symbols-outlined">
+                                check_small
+                            </span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="task">
+                    <div>
+                        <h1 style="margin: 0  10px 0 0 ">قراءة كتاب</h1>
+                        <h5 style="margin-right: 10px; margin-top: 0px;">10/3/4545</h5>
+                    </div>
+                    <div style="margin-top: 20px; padding-right: 1px;">
+                        <button style="background-color: red; margin-left: 20px; ">
+                        <span class="material-symbols-outlined">
+                            delete
+                        </span></button>
+                        <button style="background-color: aqua;  margin-left: 20px; padding: right 1px; width:40px; height:40px ;">
+                            <span class="material-symbols-outlined">
+                                edit
+                            </span>
+                        </button>
+                        <button style="background-color: rgb(174, 77, 174);  margin-left: 20px">
+                            <span class="material-symbols-outlined">
+                                check_small
+                            </span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="task">
+                    <div>
+                        <h1 style="margin: 0  10px 0 0 ">مذاكرة</h1>
+                        <div style="display: flex; justify-content: flex-end;">
+                            
+                            <h5 style="margin: 5px 5px 0 10px;">10/2/4556</h5>
+                        </div>
+                        
+                        
+                    </div>
+                    <div  style="margin-top: 20px; padding-right: 1px;">
+                        <button style="background-color: red; margin-left: 20px; ">
+                        <span class="material-symbols-outlined">
+                            delete
+                        </span></button>
+                        <button style="background-color: aqua;  margin-left: 20px; padding: right 1px; width:40px; height:40px ;">
+                            <span class="material-symbols-outlined">
+                                edit
+                            </span>
+                        </button>
+                        <button style="background-color: lightgreen;  margin-left: 20px">
+                            <span class="material-symbols-outlined">
+                                check_small
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                
+            </div>    
+
+    </div>
+
+    <script>
+
+       var tasks = [
+        {
+            "title":"قراءة كتاب",
+            "date":"12/9/2024",
+            "isCompleted":false
+        },
+        {
+            "title":"إكمال كورس جافا سكريبت",
+            "date":"12/9/2024",
+            "isCompleted":false
+        },
+        {
+            "title":"ختم القرآن",
+            "date":"12/9/2024",
+            "isCompleted":false
+        },
+        {
+            "title":"مذاكرة محاضرات الجامعة",
+            "date":"12/9/2024",
+            "isCompleted":false
+        },
+
+        {
+            "title":"تطبيق الجافاسكريبت",
+            "date":"12/9/2024",
+            "isCompleted":true
+        }
+       ]
+
+        getFromLocalStorage()
+
+       
+       
+        function fillTaskOnThePage(){
+            
+            document.getElementById("tasks").innerHTML = ""
+            let index = 0
+            for (task of tasks){
+            let content = `
+                <div class="task ${task.isCompleted ? 'done' : ''}">
+                    <div>
+                        <h3 style="margin: 15px 20px 0 0 ">${task.title}</h3>
+                        <div style="display:flex; justify-contnet:baseline; margin-right:20px;">
+                            <span class="material-symbols-outlined">
+                                calendar_month
+                            </span>
+                            <h5 style="margin: 5px 5px 0 10px;">${task.date}</h5>
+                        </div>
+                    </div>
+                    <div style="margin-top: 20px; margin-left:45px; padding-right: 1px;">
+                        <button  style="background-color: red; margin-left: 20px; ">
+                        <span onclick="deleteTask(${index})" class="material-symbols-outlined" id="delete">
+                            delete
+                        </span></button>
+                        <button onclick="editTask(${index})" style="background-color: aqua;  margin-left: 20px; padding: right 1px; ">
+                            <span class="material-symbols-outlined" id="Edit">
+                                edit
+                            </span>
+                        </button>
+                        ${task.isCompleted ? `
+                            <button onclick="toggleTaskCompletion(${index})" style="background-color: rgb(174, 77, 174) ;  margin-left: 20px">
+                            <span class="material-symbols-outlined">
+                                cancel
+                            </span>
+                        </button>
+                        ` : `
+                            <button onclick="toggleTaskCompletion(${index})" style="background-color: lightgreen;  margin-left: 20px">
+                            <span class="material-symbols-outlined" id="completed">
+                                check_small
+                            </span>
+                        </button>
+                        `}
+                    </div>
+                </div> 
+            `
+            document.getElementById("tasks").innerHTML += content
+            index++
+        }
+        }
+        
+        fillTaskOnThePage()
+        document.getElementById("add").addEventListener("click", function(){
+            let now = new Date()
+            let date = now.getDate() + "/" + now.getMonth() + "/" + now.getFullYear() + " | " + now.getHours() + ":" + now.getMinutes()
+            let taskName = prompt("أدخل اسم المهمة: ")
+
+            let content = {
+                "title":taskName,
+                "date":date,
+                "isCompleted": false
+            }
+            if(taskName!=null){
+                tasks.push(content)
+                setInLocalStorage()
+                document.getElementById("tasks").innerHTML = ""
+                fillTaskOnThePage()
+            }
+        })
+
+        function editTask(index){
+            let task = tasks[index]
+            let now = new Date()
+            let date = now.getDate() + "/" + now.getMonth() + "/" + now.getFullYear() + " | " + now.getHours() + ":" + now.getMinutes()
+            let taskName = prompt(" عدل اسم المهمة: ", task.title)
+            task.title = taskName
+            task.date = date
+            document.getElementById("tasks").innerHTML= ""
+            setInLocalStorage()
+            fillTaskOnThePage()
+        }
+
+        function deleteTask(index){
+                let isconfirmed = confirm("هل تريد حذف هذه المهمة بالتأكيد؟")
+                if(isconfirmed){
+                    tasks.splice(index,1)
+                    document.getElementById("tasks").innerHTML= ""
+                    setInLocalStorage()
+                    fillTaskOnThePage()
+                }else{
+                    alert("لم يتم حذف المهمة!")
+                }
+        }
+
+        function toggleTaskCompletion(index){
+            let task = tasks[index]
+            task.isCompleted = !task.isCompleted
+            document.getElementById("tasks").innerHTML = ""
+            setInLocalStorage()
+            fillTaskOnThePage()
+            
+        }
+
+        // ------ local storage functions ---------
+
+        function setInLocalStorage(){
+            let taskString = JSON.stringify(tasks)
+            localStorage.setItem("tasks", taskString)
+        }
+
+        function getFromLocalStorage(){
+            let retreivedTasks = JSON.parse(localStorage.getItem("tasks"))
+            tasks = retreivedTasks ?? []
+                
+        }
+
+    </script>
+
+</body>
+</html>
