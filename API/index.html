@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            margin: 0px;
+            background:
+                linear-gradient(to right,
+                rgba(73, 2, 61, 0.8),
+                rgba(68, 8, 209, 0.8)
+            );
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: space-between;
+        }
+        .Users{
+            width: 23%;
+            height: 100vh;
+            margin: 0px ;
+
+        }
+        #users{
+            width: 100%;
+            height: 20px;
+            border-radius: 40px;
+            margin: 10px; 
+            background-color: white;
+            padding: 0px 10px 20px 10px;
+            border: solid 2px black;
+        }
+
+        #users.selected{
+            border: solid 4px rgb(235, 58, 58);
+        }
+
+        
+        .Posts{
+            width: 70%;
+            height: 100vh;
+            background-color: rgb(221, 215, 215);
+            margin: 20px 20px 0px 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow-y: auto;
+        }
+
+
+
+        .Post{
+            width: 90%;
+            height: 60px;
+            background-color: white;
+            border-radius: 10px;
+            margin: 5px;
+            padding: 9px;
+        }
+
+        .Post:hover{
+            box-shadow: 0px 5px 15px black;
+            transition: box-shadow 0.3s;
+        }
+        
+    </style>
+
+    <div class="container">
+        <div id="Users" class="Users">
+              
+        </div>
+        <div id="Posts" class="Posts">        
+        </div>
+    </div>
+
+    
+
+    <script>
+        let listOfMembers = [
+            {
+                "name": "John Smith",
+                "email": "John_s@gmail.com",
+                "userID": "1"
+            },
+
+            {
+                "name": "Laura Martinez",
+                "email": "Laura_M@gmail.com",
+                "userID": "2"
+            },
+
+            {
+                "name": "Jane Johnson",
+                "email": "Jane_J@gmail.com",
+                "userID": "3"
+            },
+
+            {
+                "name": "Alex Wilimas",
+                "email": "Alex_W@gmail.com",
+                "userID": "4"
+            },
+
+            {
+                "name": "Emily Brown",
+                "email": "Emily_B@gmail.com",
+                "userID": "5"
+            },
+
+            {
+                "name": "Chris Johnes",
+                "email": "Chris_J@gmail.com",
+                "userID": "6"
+            },
+
+            {
+                "name": "Katie Gracia",
+                "email": "Katie_G@gmail.com",
+                "userID": "7"
+            },
+
+            {
+                "name": "Micheal Miller",
+                "email": "Micheal_M@gmail.com",
+                "userID": "8"
+            },
+
+            {
+                "name": "Sarah Davies",
+                "email": "Sarah_D@gmail.com",
+                "userID": "9"
+            },
+
+            {
+                "name": "David rodrigues",
+                "email": "David_R@gmail.com",
+                "userID": "10"
+            }
+        ]
+        
+        
+
+        function fillTheMembers(listOfContributers){
+                let index = 1
+                for(lom of listOfMembers){
+                    let NOC =`
+                        <div onclick="userClicked(${index}, this)" id="users">
+                            <div style="font-weight:bolder; font-size:15px;">${lom.name}</div>
+                            <div style="font-size:13px; font-weight:bolder;">${lom.email}</div>
+                        </div>  `
+                            document.getElementById("Users").innerHTML += NOC   
+                            index++
+                    }
+            }
+
+        function showPosts(index){ 
+            let request = new XMLHttpRequest()
+            let URL = `https://jsonplaceholder.typicode.com/posts?userId=${index}`
+            request.open("GET", URL)
+            request.responseType = "json"
+            request.send()
+            request.onload = function(){
+                let posts = request.response
+                document.getElementById("Posts").innerHTML = ``
+                document.getElementById("users").style.borderColor = "rgb(254, 180, 30)"
+                for(p of posts){
+                        document.getElementById("Posts").innerHTML += content()
+                }
+            }
+        }
+
+        function fillInitialPage(){
+            let request = new XMLHttpRequest()
+            request.open("GET", "https://jsonplaceholder.typicode.com/posts?userId=1")
+            request.responseType = "json"
+            request.send()
+            request.onload = function(){
+                let posts = request.response
+                for(p of posts){
+                    document.getElementById("Posts").innerHTML += content()
+                }
+            }
+        }
+
+        function content(){
+            let content = `
+                            <div id="Post" class="Post">
+                                <div style="font-size:13px; font-weight:bold; line-height:0.2;">${p.title}</div><hr>
+                                <div style="font-size:13px; font-weight:bold; line-height:1;">${p.body}</div>
+                            </div>
+                          `
+            return content
+        }
+
+        function userClicked(index, el){
+            showPosts(index)
+            let selectedElements = document.getElementsByClassName("selected")
+
+            for(element of selectedElements){
+                element.classList.remove("selected")
+            }
+            el.classList.add("selected")
+        }
+
+        
+
+        fillTheMembers()
+        fillInitialPage()
+
+    </script>
+
+</body>
+</html>
