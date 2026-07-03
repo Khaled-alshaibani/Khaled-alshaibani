@@ -35,7 +35,7 @@ I thrive on solving complex problems and continuously expanding my technical hor
 
 <p align="center">
 <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,java,js,ts,dart,cs,c,php,mysql,html,css" />
+    <img src="https://skillicons.dev/icons?i=py,java,js,ts,dart,cs,c,php,html,css" />
   </a>
 </p>
 
