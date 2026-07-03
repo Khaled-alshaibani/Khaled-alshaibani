@@ -1,13 +1,12 @@
-<div align="center"> <!-- Animated Header --> <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=300&section=header&text=Hello,%20I'm%20[Your%20Name]&fontSize=70&fontAlignY=35&animation=fadeIn&fontColor=ffffff" width="100%" /> <!-- Typing Animation --> <a href="https://git.io/typing-svg">
+<div align="center"> <!-- Animated Header --> <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=300&section=header&text=Hello,%20I'm%20Khaled&fontSize=70&fontAlignY=35&animation=fadeIn&fontColor=ffffff" width="100%" /> <!-- Typing Animation --> <a href="https://git.io/typing-svg">
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00D2FF&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;AI+Engineer;LLM+Enthusiast;System+Design+Advocate" alt="Typing SVG" />
 </a> <p align="center">
   <em>Building scalable systems, intelligent agents, and elegant user experiences.</em>
 </p> <!-- Social Badges --> <p align="center">
-  <a href="https://github.com/yourusername"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://linkedin.com/in/yourusername"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://twitter.com/yourusername"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" /></a>
-  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://yourportfolio.com"><img src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://github.com/Khaled-alshaibani"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://linkedin.com/in/Khaled-alshaibani"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://twitter.com/Khaled-alshaibani"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" /></a>
+  <a href="mailto:khaled@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p> <img src="https://capsule-render.vercel.app/api?type=rect&color=00D2FF&height=2&section=footer" width="100%" /> </div>
 
 ## 🌌 About Me
@@ -108,14 +107,14 @@ I thrive on solving complex problems and continuously expanding my technical hor
   <img src="https://capsule-render.vercel.app/api?type=rect&color=36BCF7&height=2&section=footer" width="100%" />
 </div>
 
-## 🏗️ Architecture Ecosystem
 
-<div align="center">
-<!-- Replace with your actual hosted image URL or use the provided ecosystem.png -->
-  <img src="./ecosystem.png" alt="Technology Ecosystem Architecture" width="800" />
+
+<!-- <div align="center">
+## 🏗️ Architecture Ecosystem
+<img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663569113826/yuIVKIBlviMRrBia.png" alt="Technology Ecosystem Architecture" width="800" />
 </div> <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=00D2FF&height=2&section=footer" width="100%" />
-</div>
+</div> -->
 
 ## 🎯 Current Focus
 
@@ -154,22 +153,22 @@ I thrive on solving complex problems and continuously expanding my technical hor
 ## 📊 GitHub Analytics
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" />
+<img src="https://github-readme-stats.vercel.app/api?username=Khaled-alshaibani&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Khaled-alshaibani&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" />
 </div>   
  <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Khaled-alshaibani&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
 </div>   
  <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=yourusername&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15" alt="GitHub Trophies" />
+  <!-- <img src="https://github-profile-trophy.vercel.app/?username=Khaled-alshaibani&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15" alt="GitHub Trophies" /> -->
 </div>   
  <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yourusername&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Khaled-alshaibani&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Activity Graph" />
 </div>   
  <div align="center">
-  <img src="https://img.shields.io/github/followers/yourusername?style=for-the-badge&color=00D2FF&logo=github" alt="Followers" />
-  <img src="https://img.shields.io/github/stars/yourusername?style=for-the-badge&color=9D50BB&logo=github" alt="Stars" />
-  <img src="https://komarev.com/ghpvc/?username=yourusername&color=36BCF7&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/Khaled-alshaibani?style=for-the-badge&color=00D2FF&logo=github" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/Khaled-alshaibani?style=for-the-badge&color=9D50BB&logo=github" alt="Stars" />
+  <img src="https://komarev.com/ghpvc/?username=Khaled-alshaibani&color=36BCF7&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
 </div> <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=00D2FF&height=2&section=footer" width="100%" />
 </div>
@@ -177,11 +176,10 @@ I thrive on solving complex problems and continuously expanding my technical hor
 ## 🐍 Contribution Snake
 
 <div align="center">
-<!-- Ensure you have a GitHub Action set up to generate this snake SVG -->
-  <picture>
-    <source media="(prefers-color-scheme: dark )" srcset="https://raw.githubusercontent.com/yourusername/yourusername/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light )" srcset="https://raw.githubusercontent.com/yourusername/yourusername/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/yourusername/yourusername/output/github-contribution-grid-snake.svg">
+<picture>
+    <source media="(prefers-color-scheme: dark )" srcset="https://raw.githubusercontent.com/Khaled-alshaibani/Khaled-alshaibani/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light )" srcset="https://raw.githubusercontent.com/Khaled-alshaibani/Khaled-alshaibani/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Khaled-alshaibani/Khaled-alshaibani/output/github-contribution-grid-snake.svg">
   </picture>
 </div> <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=9D50BB&height=2&section=footer" width="100%" />
@@ -219,7 +217,7 @@ OS           Ubuntu / macOS
 Editor       VS Code / Cursor
 Terminal     Zsh / Alacritty
 Browser      Arc / Chrome
-Fuel         ☕ Coffee (Count: NaN )
+Fuel         ☕ Coffee (Count: 42 )
 ```
 
 <div align="center">
@@ -241,10 +239,10 @@ Fuel         ☕ Coffee (Count: NaN )
 ## 📬 Let's Connect
 
 <p align="center">
-<a href="https://github.com/yourusername"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://linkedin.com/in/yourusername"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://twitter.com/yourusername"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" /></a>
-  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://github.com/Khaled-alshaibani"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://linkedin.com/in/Khaled-alshaibani"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://twitter.com/Khaled-alshaibani"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" /></a>
+  <a href="mailto:khaled@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p> <!-- Animated Footer --> <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=200&section=footer&text=Thanks%20for%20visiting!&fontSize=50&fontAlignY=70&animation=fadeIn&fontColor=ffffff" width="100%" />
 </div>
