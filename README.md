@@ -191,9 +191,9 @@ I thrive on solving complex problems and continuously expanding my technical hor
 timeline
     title Developer Journey
     2024 : Started Software Development
-    2025 : Backend Development Mastery
+    2025 : Frontend Development Mastery
     2026 : Full Stack Development : Flutter : Docker : Artificial Intelligence : LLMs
-    Future : Cloud Architecture : Kubernetes : Production AI Systems
+    Future : Natural Language Processing : Embedded Systems : Production AI Systems
 ```
 
 <div align="center">
@@ -206,18 +206,18 @@ timeline
 user@sandbox:~$ ./status.sh
 
 [SYSTEM STATUS]
-Backend      [██████████] 100%
-Flutter      [█████████░] 90%
-AI           [████████░░] 80%
-DevOps       [███████░░░] 70%
+Frontend     [██████████] 100%
+BackEnd      [█████████░] 90%
+Flutter      [███████░░░] 70%
+AI           [██████░░░░] 60%
+DevOps       [█████░░░░░] 50%
 Learning     [██████████] 100%
 
 [ENVIRONMENT]
-OS           Ubuntu / macOS
+OS           Ubuntu / Wndows
 Editor       VS Code / Cursor
-Terminal     Zsh / Alacritty
-Browser      Arc / Chrome
-Fuel         ☕ Coffee (Count: 42 )
+Terminal     Zsh 
+Browser      Brave / Chrome
 ```
 
 <div align="center">
@@ -228,8 +228,8 @@ Fuel         ☕ Coffee (Count: 42 )
 
 | 🟢 Mastered | 🟡 Experienced | 🔵 Currently Learning | 🟣 Future Goals |
 | --- | --- | --- | --- |
-| Python, JavaScript | TypeScript, Dart | LLMs, RAG | Kubernetes |
-| Node.js, Express | React, Next.js | PyTorch, AI Agents | Cloud Native |
+| Python, JavaScript | TypeScript, Dart | LLMs, RAG | embedded systems |
+| Node.js, Express | React, Next.js | PyTorch, AI Agents | NLP |
 | SQL, Git | Flutter, Docker | Advanced Architecture | MLOps |
 
 <div align="center">
