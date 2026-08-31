@@ -142,14 +142,6 @@ I thrive on solving complex problems and continuously expanding my technical hor
   <img src="https://capsule-render.vercel.app/api?type=rect&color=9D50BB&height=2&section=footer" width="100%" />
 </div>
 
-## 💡 Developer Philosophy
-
-> *"Software is not just about writing code. It is about solving real-world problems with elegant solutions."*
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=36BCF7&height=2&section=footer" width="100%" />
-</div>
-
 ## 📊 GitHub Analytics
 
 <div align="center">
@@ -183,21 +175,6 @@ I thrive on solving complex problems and continuously expanding my technical hor
   </picture>
 </div> <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=9D50BB&height=2&section=footer" width="100%" />
-</div>
-
-## 🗺️ Timeline & Roadmap
-
-```mermaid
-timeline
-    title Developer Journey
-    2024 : Started Software Development
-    2025 : Frontend Development Mastery
-    2026 : Full Stack Development : Flutter : Docker : Artificial Intelligence : LLMs
-    Future : Natural Language Processing : Embedded Systems : Production AI Systems
-```
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=36BCF7&height=2&section=footer" width="100%" />
 </div>
 
 ## 💻 Developer Dashboard
